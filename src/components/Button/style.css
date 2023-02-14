@@ -1,0 +1,32 @@
+#button1 {
+    background-color: #0098B9;
+    border: none;
+}
+
+@keyframes flying {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    25% {
+        transform: translate(0px, -3px);
+    }
+    50% {
+        transform: translate(0px, 0px);
+    }
+    75% {
+        transform: translate(0px, -3px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+#button1:hover {
+    background-color: #2BC1E1;
+    -webkit-animation: flying 1s ease-in-out 0s 
+    infinite;
+    -moz-animation: flying 2s ease-in-out 0s 
+    infinite;
+    animation: flying 2s ease-in-out 0s 
+    infinite;
+}
