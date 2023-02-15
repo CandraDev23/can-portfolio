@@ -34,7 +34,7 @@ export default function Body() {
                     <Hr />
                     <div className="my-4">
                         <h5 className="fw-bold" style={{ color: "#333333" }}>About</h5>
-                        <a href={cv} download="CV Candra Setiawan.pdf" style={{textDecoration: "none"}}>
+                        <a href={cv} download="CV Candra Setiawan" style={{textDecoration: "none"}}>
                             <Buttonn value="Download CV" icon={faAddressCard} />
                         </a>
                         <Buttonn link="https://www.linkedin.com/in/candra-setiawan-783857253/" value="LinkedIn" icon={faLinkedin} />
