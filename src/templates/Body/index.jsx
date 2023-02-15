@@ -6,23 +6,10 @@ import { faDribbble, faGithub, faGitlab, faLinkedin, faInstagram, faWhatsapp, fa
 import { faEnvelope, faAddressCard } from '@fortawesome/free-solid-svg-icons'
 import Hr from '../../components/Line';
 import { Container } from 'react-bootstrap';
+import cv from '../../assets/Doc/CV Candra Setiawan.pdf'
+
 
 export default function Body() {
-    const onButtonClick = () => {
-        // using Java Script method to get PDF file
-        fetch('my_cv.pdf').then(response => {
-            response.blob().then(blob => {
-                // Creating new object of PDF file
-                const fileURL = window.URL.createObjectURL(blob);
-                // Setting various property values
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'CV Candra Setiawan.pdf';
-                alink.click();
-            })
-        })
-    }
-
     return (
         <Container className='py-5'>
             <div style={{ margin: "0 auto" }}>
@@ -47,7 +34,9 @@ export default function Body() {
                     <Hr />
                     <div className="my-4">
                         <h5 className="fw-bold" style={{ color: "#333333" }}>About</h5>
-                        <Buttonn click={onButtonClick} value="Download CV" icon={faAddressCard}/>
+                        <a href={cv} download="CV Candra Setiawan.pdf" style={{textDecoration: "none"}}>
+                            <Buttonn value="Download CV" icon={faAddressCard} />
+                        </a>
                         <Buttonn link="https://www.linkedin.com/in/candra-setiawan-783857253/" value="LinkedIn" icon={faLinkedin} />
                     </div>
                     <Hr />
