@@ -7,7 +7,9 @@ export default function Buttonn(props) {
     return (
         <Button id="button1" 
         className='rounded-pill w-100 fs-6 my-2 py-2 d-flex align-items-center justify-content-center gap-3' 
-        href={props.link}>
+        href={props.link}
+        onClick={props.click}
+        >
             <span>
                 <FontAwesomeIcon icon={props.icon} />
             </span>
