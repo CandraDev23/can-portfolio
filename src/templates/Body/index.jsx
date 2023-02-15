@@ -6,6 +6,8 @@ import { faDribbble, faGithub, faGitlab, faLinkedin, faInstagram, faWhatsapp, fa
 import { faEnvelope, faAddressCard } from '@fortawesome/free-solid-svg-icons'
 import Hr from '../../components/Line';
 import { Container } from 'react-bootstrap';
+import cv from '../../assets/Doc/my_cv.pdf'
+
 
 export default function Body() {
     return (
@@ -32,7 +34,9 @@ export default function Body() {
                     <Hr />
                     <div className="my-4">
                         <h5 className="fw-bold" style={{ color: "#333333" }}>About</h5>
-                        <Buttonn value="Download CV" icon={faAddressCard} />
+                        <a href={cv} download="CV Candra Setiawan" style={{textDecoration: "none"}}>
+                            <Buttonn value="Download CV" icon={faAddressCard} />
+                        </a>
                         <Buttonn link="https://www.linkedin.com/in/candra-setiawan-783857253/" value="LinkedIn" icon={faLinkedin} />
                     </div>
                     <Hr />
