@@ -17,7 +17,7 @@ export default function Body() {
                     <PhotoProfile />
                     <div className="mb-5">
                         <h5 className="my-2 fw-bold" style={{ color: "#333333" }}>Candra Setiawan</h5>
-                        <h5 style={{ fontSize: "0.7em", fontWeight: "bold", color: "#0098B9" }}>I Do Design and Coding</h5>
+                        <h5 style={{ fontSize: "0.7em", fontWeight: "bold", color: "#0098B9" }}>I Do Design and Code</h5>
                     </div>
                     <div className="my-4">
                         <h5 className="fw-bold" style={{ color: "#333333" }}>Design</h5>
