@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/can-portfolio/static/css/main.e62f83dc.css",
+    "main.js": "/can-portfolio/static/js/main.7d36334f.js",
+    "static/media/CV Candra Setiawan.pdf": "/can-portfolio/static/media/CV Candra Setiawan.a5f8a0472ecbf13b7b5e.pdf",
+    "static/media/my_photo.png": "/can-portfolio/static/media/my_photo.c6963830e5b09d941a31.png",
+    "index.html": "/can-portfolio/index.html",
+    "main.e62f83dc.css.map": "/can-portfolio/static/css/main.e62f83dc.css.map",
+    "main.7d36334f.js.map": "/can-portfolio/static/js/main.7d36334f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e62f83dc.css",
+    "static/js/main.7d36334f.js"
+  ]
+}
