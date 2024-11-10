@@ -1,7 +1,7 @@
 {
   "name": "can-portofolio",
   "version": "0.1.0",
-  "homepage": "https://CandraDev23.github.io/can-portfolio",
+  "homepage": "https://candradev23.github.io/can-portfolio/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
